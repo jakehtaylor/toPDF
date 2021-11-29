@@ -1,0 +1,110 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/jaketaylor/Downloads/Document fonts/AdobeFnt22.lst
+FileLength:1785
+FileModTime:657738365
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/jaketaylor/Downloads/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:517257512
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Black
+FamilyName:Roboto
+StyleName:Black
+MenuName:Roboto Bk
+StyleBits:2
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Roboto Black
+WritingScript:Roman
+OutlineFileName:/Users/jaketaylor/Downloads/Document fonts/Roboto-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:164936
+FileModTime:657740452
+NameArray:0,Mac,18,Roboto Black
+NameArray:0,Mac,4,Roboto Black
+NameArray:0,Win,1,Roboto Bk
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Bold
+FamilyName:Roboto
+StyleName:Bold
+MenuName:Roboto
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Roboto Bold
+WritingScript:Roman
+OutlineFileName:/Users/jaketaylor/Downloads/Document fonts/Roboto-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:163448
+FileModTime:595962921
+NameArray:0,Mac,18,Roboto Bold
+NameArray:0,Mac,4,Roboto Bold
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Regular
+FamilyName:Roboto
+StyleName:Regular
+MenuName:Roboto
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Roboto Regular
+WritingScript:Roman
+OutlineFileName:/Users/jaketaylor/Downloads/Document fonts/Roboto-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:158604
+FileModTime:657740356
+NameArray:0,Mac,18,Roboto Regular
+NameArray:0,Mac,4,Roboto Regular
+NameArray:0,Win,1,Roboto
+%EndFont
+
