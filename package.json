@@ -2,6 +2,7 @@
   "name": "topdf",
   "version": "1.0.0",
   "description": "generating pdfs for jmg ",
+  "main": "server.js",
   "engines": {
     "node": "14.x"
   },
