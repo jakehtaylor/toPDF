@@ -352,8 +352,12 @@
         
         $.when.apply($, deferreds).then(function () {
             var name = pre+client+'_'+report_date+'.pdf';
+            doc.save(name)
+        /*
+            
             var binary = doc.output();
-            var b64 = btoa(binary);   
+            var b64 = btoa(binary);  
+        */
             
             
             
