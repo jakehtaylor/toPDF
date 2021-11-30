@@ -81,7 +81,7 @@
     <div id="saRow1"  data-_y=2.875 data-_x1=0.6875 data-_x_spacing=1.9375></div>
     <div id="seRow1"  data-_y=8.25 data-_x1=1.625 data-_x_spacing=2.007></div>
     <script type="text/javascript">
-    console.log('HORRAY');
+        console.log('HORRAY')
     
         
         var objects =  (JSON.parse("<%=schema%>".replace(/&#34;/g, '"').replace(/&#39;/g, "'"))).objects
@@ -352,13 +352,17 @@
         
         $.when.apply($, deferreds).then(function () {
             var name = pre+client+'_'+report_date+'.pdf';
-            doc.save(name)
-        /*
-            
             var binary = doc.output();
-            var b64 = btoa(binary);  
-        */
+            var b64 = btoa(binary); 
             
+            $.ajax({
+                url: 'https://jmg-pdf-generator.herokuapp.com/upload',
+                type: "POST",
+                data: b64
+                }).done(function(data) {
+                    console.log(data);
+                })
+                            
             
             
         
