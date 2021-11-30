@@ -28,6 +28,7 @@ app.use(
 app.use(express.json());
 
   app.get('/', (req, res) => {
+      console.log('HELLO')
     let data = {'objects': []};
     readXlsxFile('public/data.xlsx', { getSheets: true }).then((sheets) => {
       for (s in sheets.slice(0, 1)) {
