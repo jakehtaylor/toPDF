@@ -20,15 +20,17 @@ const middlewares = [
     express.static(path.join(__dirname, 'public')),
   ];
 app.use(middlewares);
+/*
 app.use(
   express.urlencoded({
     extended: true
   })
 );
+*/
 app.use(express.json());
 
   app.get('/', (req, res) => {
-      console.log('HELLO')
+    console.log('GET')
     let data = {'objects': []};
     readXlsxFile('public/data.xlsx', { getSheets: true }).then((sheets) => {
       for (s in sheets.slice(0, 1)) {
@@ -49,6 +51,7 @@ app.use(express.json());
   });
 
   app.get('/upload', function(req,res) {
+    console.log(req.body)
     //drop.upload_file(data.name, '/JMG Team Folder/zDealer Intelligence Report/' + data.name)
     res.status(200).send('got');
  });
