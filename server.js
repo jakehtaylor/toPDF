@@ -50,19 +50,6 @@ app.use(express.json());
     });
   });
 
-  app.get('/upload', function(req,res) {
-    res.status(200).send('GET 200 OK');
- });
-
- app.post('/upload', function(req,res) {
-  console.log(req.data)
-  res.send(200)
-
-
-    //drop.upload_file(data.name, '/JMG Team Folder/zDealer Intelligence Report/' + data.name)
-
- });
-
  app.get('/html2canvas.min.js',function(req,res){
     res.sendFile('public/html2canvas.min.js'); 
   });
