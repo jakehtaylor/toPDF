@@ -55,7 +55,7 @@ app.use(express.json());
  });
 
  app.post('/upload', function(req,res) {
-  console.log(req.data.string)
+  console.log(req.data)
   res.send(200)
 
 
