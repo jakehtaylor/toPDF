@@ -51,13 +51,11 @@ app.use(express.json());
   });
 
   app.get('/upload', function(req,res) {
-    console.log(req.body)
-    //drop.upload_file(data.name, '/JMG Team Folder/zDealer Intelligence Report/' + data.name)
-    res.status(200).send('got');
+    res.status(200).send('GET 200 OK');
  });
 
  app.post('/upload', function(req,res) {
-  console.log(req)
+  console.log(req.body)
 
   res.send(200)
 
