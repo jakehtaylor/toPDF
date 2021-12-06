@@ -355,13 +355,11 @@
             var binary = doc.output();
             var b64 = btoa(binary); 
             
-            $.ajax({
-                url: 'https://jmg-pdf-generator.herokuapp.com/upload',
-                type: "POST",
-                data:'data:application/octet-stream;base64,' + b64
-                }).done(function(data) {
-                    console.log('done');
-                })
+            var link = document.createElement('a');
+            link.innerHTML = 'Download PDF file';
+            link.download = 'file.pdf';
+            link.href = 'data:application/octet-stream;base64,' + b64;
+            document.body.appendChild(link);
                             
             
             
