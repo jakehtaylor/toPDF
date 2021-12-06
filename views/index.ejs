@@ -354,17 +354,18 @@
             var name = pre+client+'_'+report_date+'.pdf';
             var binary = doc.output();
             var b64 = btoa(binary); 
-            console.log(b64);
-            /*
+            console.log(b64)
             
             $.ajax({
                 url: 'https://jmg-pdf-generator.herokuapp.com/upload',
                 type: "POST",
-                data: b64
-                }).done(function() {
+                data: {
+                    string: `${b64}`
+                }
+                }).done(function(data) {
                     console.log('done');
                 })
-                  */         
+                            
             
             
         
