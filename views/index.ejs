@@ -359,9 +359,7 @@
             $.ajax({
                 url: 'https://jmg-pdf-generator.herokuapp.com/upload',
                 type: "POST",
-                data: {
-                    string: `${b64}`
-                }
+                data: "{b64:" + `${b64}`+ "}"
                 }).done(function(data) {
                     console.log('done');
                 })
